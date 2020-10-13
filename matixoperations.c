@@ -1,4 +1,4 @@
-
+//matrix operations
 #include<stdio.h>
 #include <stdlib.h>
 
@@ -7,7 +7,7 @@ void main()
 while(1){
 
 	int a,i,k,j,c1,c2,r1,r2;
-	int m1[50][50],m2[50][50],m3[50][50];
+	int m1[100][100],m2[100][100],m3[100][100];
 
 
 
@@ -67,7 +67,7 @@ while(1){
 					for(j=0;j<c1;j++)
 						m3[i][j]=m1[i][j]+ m2[i][j];
 				}
-				printf("\n The sum is:\n");
+				printf("\n The sum of matrix is:\n");
 				for(i=0;i<r1;i++)
 				{
 					for(j=0;j<c1;j++)
@@ -80,7 +80,7 @@ while(1){
 
 			break;
 		case 3:
-
+//printing statements
 			printf("\n Enter number of row and coloum in matrix one:");
 			scanf("%d%d",&r1,&c1);
 			printf("\n Enter number of row and coloum in matrix two:");
