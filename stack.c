@@ -5,10 +5,10 @@
   void push()
   {
     int x;
-    printf("enter data ");
+    printf("enter data values");
   scanf("%d",&x);
     if(top==14){
-      printf("stack overflow ");
+      printf("stack overflow condition ");
 
     }
     else{
@@ -24,7 +24,7 @@
     int item;
     if(top==-1){
 
-      printf("stack underflow \n");
+      printf("stack underflow conditon\n");
     }
     else{
       item=stack[top];
@@ -53,7 +53,7 @@ void main(){
   int opt;
   while(1){
     int opt;
-    printf("enter your options\n");
+    printf("enter your options you want to choose\n");
     printf("1:push\n2:pop\n3:peek\n4:display\n5:exit\n");
     scanf("%d",&opt);
     switch(opt){
