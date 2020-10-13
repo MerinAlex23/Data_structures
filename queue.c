@@ -1,3 +1,4 @@
+//c programto perform queues in data structures
 #include <stdio.h>
 #include <stdlib.h>
 int queue[5];
@@ -37,7 +38,7 @@ void dequeue(){
 void display(){
   int i;
   if(front==-1&&rear==-1){
-    printf("nothing to display");
+    printf("Nothing to display in the screen");
 
   }
   else{
@@ -57,7 +58,7 @@ void main(){
 
   while(1){
     int opt;
-    printf("enter your options\n");
+    printf("enter your options to choose\n");
     printf("1:enqueue\n2:dequeue\n3:peek\n4:display\n5:exit\n");
     scanf("%d",&opt);
     switch(opt){
